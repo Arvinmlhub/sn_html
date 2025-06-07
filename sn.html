@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SN Company</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .hero {
+      background: linear-gradient(to right, #f44336, #e53935);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: white;
+      color: #f44336;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #ffe5e5;
+    }
+
+    .features {
+      padding: 60px 20px;
+      background-color: #f8f9fa;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .feature-icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .feature-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .feature-desc {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">SN Company</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" role="region" aria-label="Company hero section" id="home">
+    <div class="container">
+      <h1>Building Your Vision, Creating Your Future</h1>
+      <p>At SN Construction, we deliver top-tier construction services with excellence, reliability, and innovation.</p>
+      <a href="#contact" class="cta-button">Get a Quote</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="features" id="services" aria-label="Our Services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <article class="feature-card" tabindex="0">
+            <div class="feature-icon" aria-hidden="true">???</div>
+            <h2 class="feature-title">Residential Construction</h2>
+            <p class="feature-desc">We build comfortable, modern homes tailored to your lifestyle and needs with expert craftsmanship.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="feature-card" tabindex="0">
+            <div class="feature-icon" aria-hidden="true">??</div>
+            <h2 class="feature-title">Commercial Buildings</h2>
+            <p class="feature-desc">Delivering high-quality commercial spaces with superior design and sustainable solutions.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="feature-card" tabindex="0">
+            <div class="feature-icon" aria-hidden="true">???</div>
+            <h2 class="feature-title">Renovations & Remodeling</h2>
+            <p class="feature-desc">Transforming existing spaces with precise remodeling and innovative upgrades.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="features" id="about" aria-label="About SN Construction">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <article class="feature-card" tabindex="0">
+            <h2 class="feature-title">Our Mission</h2>
+            <p class="feature-desc">To provide our clients with superior construction services that exceed expectations through quality, safety, and integrity.</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="feature-card" tabindex="0">
+            <h2 class="feature-title">Our Values</h2>
+            <p class="feature-desc">Commitment to Excellence, Innovation, Customer Satisfaction, and Sustainable Practices.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="text-success mb-4">Contact</h2>
+      <p>Email: <a href="mailto:contact@sncompany.com">contact@sncompany.com</a></p>
+      <p>Phone: +1 (123) 456-7890</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SN Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
